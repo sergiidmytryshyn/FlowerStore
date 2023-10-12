@@ -3,8 +3,6 @@ package flower.item;
 import lombok.Getter;
 import lombok.Setter;
 
-
-
 @Setter 
 public class Flower {
     @Getter
@@ -41,5 +39,4 @@ public class Flower {
         this.price = flower.price;
         this.flowerType = flower.flowerType;
     }
-
 }
